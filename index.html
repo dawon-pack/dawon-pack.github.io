@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>다원 | 식품 포장용기 전문 제조기업</title>
+<meta name="description" content="다원은 사출 식품용기와 포장재를 전문으로 생산하는 제조기업입니다. 안전한 식품용기를 합리적인 가격에 공급합니다.">
+<style>
+  :root{
+    --navy:#1b3a5b;
+    --blue:#2f6db3;
+    --light:#f4f7fa;
+    --line:#e2e8f0;
+    --text:#2d3748;
+    --muted:#5a6b7b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:"Malgun Gothic","맑은 고딕",-apple-system,sans-serif;
+    color:var(--text);
+    line-height:1.7;
+    background:#fff;
+  }
+  img{max-width:100%;display:block;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px;}
+
+  header{
+    position:sticky;top:0;z-index:50;
+    background:#fff;border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;height:66px;}
+  .logo{font-size:24px;font-weight:800;color:var(--navy);letter-spacing:1px;}
+  .logo span{color:var(--blue);}
+  .menu{display:flex;gap:26px;}
+  .menu a{color:var(--muted);font-size:15px;font-weight:500;}
+  .menu a:hover{color:var(--blue);}
+  @media(max-width:640px){.menu{display:none;}}
+
+  .hero{
+    background:linear-gradient(135deg,var(--navy),var(--blue));
+    color:#fff;text-align:center;padding:90px 20px;
+  }
+  .hero h1{font-size:38px;font-weight:800;line-height:1.35;margin-bottom:18px;}
+  .hero p{font-size:18px;opacity:.92;max-width:640px;margin:0 auto 30px;}
+  .btn{
+    display:inline-block;background:#fff;color:var(--navy);
+    padding:14px 32px;border-radius:30px;font-weight:700;font-size:16px;
+  }
+  .btn:hover{background:var(--light);}
+  @media(max-width:640px){.hero h1{font-size:27px;}.hero p{font-size:16px;}}
+
+  section{padding:70px 0;}
+  .section-title{text-align:center;font-size:28px;font-weight:800;color:var(--navy);margin-bottom:12px;}
+  .section-sub{text-align:center;color:var(--muted);margin-bottom:45px;}
+
+  .features{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .card{
+    background:var(--light);border-radius:14px;padding:34px 26px;text-align:center;
+  }
+  .card .ico{font-size:40px;margin-bottom:14px;}
+  .card h3{font-size:19px;color:var(--navy);margin-bottom:10px;}
+  .card p{color:var(--muted);font-size:15px;}
+  @media(max-width:640px){.features{grid-template-columns:1fr;}}
+
+  .products{background:var(--light);}
+  .prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  .prod{
+    background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:28px 16px;text-align:center;font-weight:600;color:var(--text);
+  }
+  .prod .pico{font-size:34px;margin-bottom:10px;}
+  @media(max-width:640px){.prod-grid{grid-template-columns:repeat(2,1fr);}}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;}
+  .stat .num{font-size:36px;font-weight:800;color:var(--blue);}
+  .stat .label{color:var(--muted);margin-top:6px;font-size:15px;}
+  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr);gap:30px;}}
+
+  .contact{background:var(--navy);color:#fff;}
+  .contact .section-title{color:#fff;}
+  .contact-box{
+    display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:20px;
+  }
+  .contact-box h3{font-size:18px;margin-bottom:14px;color:#cfe0f0;}
+  .contact-box p{margin-bottom:8px;opacity:.92;}
+  @media(max-width:640px){.contact-box{grid-template-columns:1fr;gap:26px;}}
+
+  footer{background:#12283e;color:#8ba3ba;text-align:center;padding:26px 20px;font-size:14px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">DA<span>WON</span></div>
+    <nav class="menu">
+      <a href="#about">회사소개</a>
+      <a href="#products">제품안내</a>
+      <a href="#strength">생산역량</a>
+      <a href="#contact">오시는 길</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>안전한 식품, 믿을 수 있는 포장<br>다원이 함께합니다</h1>
+  <p>다원은 사출 식품용기와 포장재를 전문으로 생산하는 제조기업입니다.
+     엄격한 품질관리로 안전한 제품을 합리적인 가격에 공급합니다.</p>
+  <a href="#contact" class="btn">제품 문의하기</a>
+</div>
+
+<section id="strength">
+  <div class="wrap">
+    <h2 class="section-title">다원의 강점</h2>
+    <p class="section-sub">오랜 경험과 설비를 바탕으로 신뢰받는 파트너가 되겠습니다</p>
+    <div class="features">
+      <div class="card">
+        <div class="ico">🏭</div>
+        <h3>자체 생산 설비</h3>
+        <p>다수의 사출 설비를 보유하여 대량 주문에도 안정적으로 대응합니다.</p>
+      </div>
+      <div class="card">
+        <div class="ico">✅</div>
+        <h3>철저한 품질관리</h3>
+        <p>식품용기에 맞는 위생 기준을 준수하며 균일한 품질을 유지합니다.</p>
+      </div>
+      <div class="card">
+        <div class="ico">🤝</div>
+        <h3>합리적인 공급</h3>
+        <p>직접 생산 체계로 불필요한 비용을 줄여 경쟁력 있는 가격을 제안합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="products">
+  <div class="wrap">
+    <h2 class="section-title">주요 제품</h2>
+    <p class="section-sub">다양한 식품 포장 수요에 맞춘 제품을 생산합니다</p>
+    <div class="prod-grid">
+      <div class="prod"><div class="pico">🥡</div>사출 식품용기</div>
+      <div class="prod"><div class="pico">🍜</div>탕·면 용기</div>
+      <div class="prod"><div class="pico">🍱</div>반찬·도시락 용기</div>
+      <div class="prod"><div class="pico">🔒</div>실링 용기</div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2 class="section-title">회사 현황</h2>
+    <p class="section-sub">숫자로 보는 다원</p>
+    <div class="stats">
+      <div class="stat"><div class="num">20+</div><div class="label">업력(년)</div></div>
+      <div class="stat"><div class="num">00대</div><div class="label">보유 사출기</div></div>
+      <div class="stat"><div class="num">000+</div><div class="label">생산 품목</div></div>
+      <div class="stat"><div class="num">전국</div><div class="label">납품 지역</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2 class="section-title">오시는 길 · 문의</h2>
+    <div class="contact-box">
+      <div>
+        <h3>본사 · 공장</h3>
+        <p>경기도 양주시 (상세 주소 입력)</p>
+        <p>전화 : 000-0000-0000</p>
+        <p>팩스 : 000-0000-0000</p>
+        <p>이메일 : dawon@example.com</p>
+      </div>
+      <div>
+        <h3>제품 문의 안내</h3>
+        <p>제품 규격, 견적, 납기 등 궁금하신 사항은</p>
+        <p>위 연락처로 문의해 주시면 신속히 안내해 드리겠습니다.</p>
+        <p>상담 시간 : 평일 09:00 ~ 18:00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>상호 : 다원 &nbsp;|&nbsp; 대표 : 오나경 &nbsp;|&nbsp; 경기도 양주시</p>
+    <p>Copyright © 2026 DAWON. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
